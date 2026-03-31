@@ -1,5 +1,5 @@
 # MOF-HFC
-This folder contains the input files required to reproduce the binary mixture grand canonical Monte Carlo (GCMC) simulation of HFC-32 (difluoromethane) and HFC-125 (pentafluoroethane) in Mg-MOF-74 at 300 K and 0.1 bar, as reported in:
+This folder contains the input files required to reproduce the grand canonical Monte Carlo (GCMC) simulation of HFC-32 (difluoromethane) and HFC-125 (pentafluoroethane) binary mixture in Mg-MOF-74 at 300 K and 0.1 bar, as reported in:
 > M. Maurya and N. Wang*, "Selective Adsorptive Separation of HFC-32 and HFC-125 in M-MOF-74 (M = Mg, Ni, Co): A Grand Canonical Monte Carlo Study," *The Journal of Physical Chemistry C*, (submitted).
 
 ---
