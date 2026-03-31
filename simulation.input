@@ -1,0 +1,51 @@
+SimulationType                MonteCarlo
+NumberOfCycles                50000
+NumberOfInitializationCycles  30000
+PrintEvery                    1000
+RestartFile                   no
+
+UseChargesFromCIFFile         no
+#Forcefield                    GarciaPerez2006
+
+ContinueAfterCrash yes  # yes
+WriteBinaryRestartFileEvery 1000
+
+CutOff                       14.0
+TailCorrections              yes
+CoulombMethod                Ewald        # HFC-32 is polar
+EwaldPrecision               1e-6
+
+Framework 0
+FrameworkName MgMOF-74
+UnitCells 2 2 7
+HeliumVoidFraction 0.744
+ExternalTemperature           300.0             # K
+ExternalPressure              0.1e5             # Pa (used with fugacity coefficient if provided)
+
+Movies yes
+WriteMoviesEvery 1000
+
+Component 0 MoleculeName                  HFC32
+            MoleculeDefinition            local
+            MolFraction                   0.7
+            TranslationProbability        0.3
+            RotationProbability           0.3
+            ReinsertionProbability        0.1
+            SwapProbability               0.3  # enable insert/delete
+            IdentityChangeProbability     0.2
+            NumberOfIdentityChanges       2
+            IdentityChangesList           0 1
+            CreateNumberOfMolecules       0
+
+Component 1 MoleculeName                  HFC125
+            MoleculeDefinition            local
+            MolFraction                   0.30
+            TranslationProbability        0.3
+            RotationProbability           0.3
+            ReinsertionProbability        0.1
+            SwapProbability               0.3
+            IdentityChangeProbability     0.2
+            NumberOfIdentityChanges       2
+            IdentityChangesList           0 1
+            CreateNumberOfMolecules       0
+

@@ -1,0 +1,26 @@
+# general rule for shifted vs truncated
+truncated
+# general rule tailcorrections
+yes
+# number of defined interactions
+17
+# type interaction
+C_HFC         lennard-jones    55.6481   3.799 
+F_HFC         lennard-jones    39.1405   2.743
+H_HFC         lennard-jones    3.66442   1.969
+C1_HFC         lennard-jones    59.3807   3.805 
+C2_HFC         lennard-jones    27.4944   3.617 
+F1_HFC         lennard-jones    28.3145   3.201
+F2_HFC         lennard-jones    17.6325   2.644 
+H1_HFC         lennard-jones    6.49421   2.488
+Mg1           lennard-jones    55.857    2.6914 
+O1            lennard-jones    48.158    3.033
+O2           lennard-jones     48.158    3.033
+O3           lennard-jones     48.158    3.033
+C1           lennard-jones     47.856    3.473
+C2           lennard-jones     47.856    3.473
+C3           lennard-jones     47.856    3.473
+C4           lennard-jones     47.856    3.473
+H1           lennard-jones      7.649    2.846
+# general mixing rule for Lennard-Jones
+Lorentz-Berthelot

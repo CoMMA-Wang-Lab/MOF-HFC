@@ -1,0 +1,22 @@
+#number of pseudo atoms
+17
+#type      print   as    chem  oxidation   mass        charge   polarization B-factor radii  connectivity anisotropic anisotropic-type   tinker-type
+Mg1        yes     Mg    Mg    0           24.30506    1.458  0.0          1.0      1.6    0            0           relative           0
+O1         yes     O     O     0           15.9994    -0.909  0.0          1.0      0.68   2            0           relative           0
+O2         yes     O     O     0           15.9994    -0.714   0.0          1.0      0.68   2            0           relative           0
+O3         yes     O     O     0           15.9994    -0.784  0.0          1.0      0.68   2            0           relative           0
+C1         yes     C     C     0           12.0107     0.80  0.0          1.0      0.720  0            0           relative           0
+C2         yes     C     C     0           12.0107    -0.26  0.0          1.0      0.720  0            0           relative           0
+C3         yes     C     C     0           12.0107     0.492  0.0          1.0      0.720  0            0           relative           0
+C4         yes     C     C     0           12.0107    -0.28  0.0          1.0      0.720  0            0           relative           0
+H1         yes     H     H     0           1.00794     0.197  0.0          1.0      0.320  0            0           relative           0
+F_HFC      yes     F     F     0        18.998403    -0.250783  0.0          1.0      0.320  0            0           relative           0
+C_HFC      yes     C     C     0        12.0107     0.405467  0.0          1.0      0.320  0            0           relative           0
+H_HFC      yes     H     H     0        1.00794  0.0480495  0.0          1.0      0.320  0            0           relative           0
+F1_HFC   yes     F1     F     0           18.998403  -0.167131    0.0          1.0      0.7    0            0           relative 0
+F2_HFC   yes     F2     F     0           18.998403  -0.170758    0.0          1.0      0.7    0            0           relative 0
+C1_HFC   yes     C1     C     0           12.0        0.224067    0.0          1.0      0.7    0            0           relative 0
+C2_HFC   yes     C2     C     0           12.0        0.500886    0.0          1.0      0.7    0            0           relative 0
+H1_HFC   yes     H1     H     0           1.00794     0.121583   0.0          1.0      0.7    0            0           relative  0
+
+

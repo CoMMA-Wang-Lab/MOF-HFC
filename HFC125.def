@@ -1,0 +1,34 @@
+# critical constants: Temperature [T], Pressure [Pa], and Acentric factor [-]
+339.173
+3617700
+0.3052
+#Number Of Atoms
+8
+# Number of groups
+1
+# HFC-group
+rigid
+# number of atoms
+8
+# atomic positions
+0 C2_HFC    -0.613742   -0.000000   -0.002827
+1 F2_HFC    -0.723339   -0.000001    1.330302
+2 F2_HFC    -1.229854    1.090445   -0.489373
+3 F2_HFC    -1.229855   -1.090443   -0.489375
+4 C1_HFC     0.855219   -0.000000   -0.442825
+5 F1_HFC     1.459075    1.104921    0.058018
+6 F1_HFC     1.459075   -1.104921    0.058017
+7 H1_HFC     0.935219    0.000000   -1.534392
+# Chiral centers Bond  BondDipoles Bend  UrayBradley InvBend  Torsion Imp. Torsion Bond/Bond Stretch/Bend Bend/Bend Stretch/Torsion Bend/Torsion IntraVDW IntraCoulomb
+               0    7            0    0            0       0        0            0         0            0         0               0            0        0            0
+# Bond stretch: atom n1-n2, type, parameters
+0 1 RIGID_BOND
+0 2 RIGID_BOND
+0 3 RIGID_BOND
+0 4 RIGID_BOND
+4 5 RIGID_BOND
+4 6 RIGID_BOND
+4 7 RIGID_BOND
+# Number of config moves
+0
+
